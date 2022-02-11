@@ -1,0 +1,14 @@
+# 이 파일 자체가 하나의 모듈이 됨
+# 이 파일을 theater_module.py 로 저장
+
+# 일반 가격
+def price(people):
+    print("{0}명 가격은 {1}원 입니다.".format(people, people*10000))
+
+# 조조할인 가격
+def price_morning(people):
+    print("{0}명 조조할인 가격은 {1}원 입니다.".format(people, people*6000))
+
+# 조조할인 가격
+def price_soldier(people):
+    print("{0}명 군인할인 가격은 {1}원 입니다.".format(people, people*4000))
